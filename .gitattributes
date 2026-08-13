@@ -1,0 +1,11 @@
+# Project-specific overrides
+# Generated on 2026-11-15
+# See https://github.com/github/linguist
+dist/* linguist-vendored
+*.tsx linguist-detectable  
+node_modules/* linguist-vendored
+*.yaml linguist-detectable=false
+build/* linguist-vendored
+*.min.css linguist-generated
+*.html linguist-vendored
+vendor/* linguist-vendored
